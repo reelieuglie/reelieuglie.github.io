@@ -1,3 +1,10 @@
+# global settings
+#title: ""
+#description: ""
+#permalink: ""
+url:  https://reelieuglie.github.io/
+#relative_permalinks: false
+
 lsi: false
 safe: true
 source: .
