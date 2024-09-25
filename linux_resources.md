@@ -2,6 +2,9 @@
 layout: page
 title: "Linux Resources"
 permalink: /linux/resources
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 ---
 
 # Linux Resources
