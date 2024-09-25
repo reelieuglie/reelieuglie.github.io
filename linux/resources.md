@@ -1,6 +1,6 @@
 layout: page
 title: "Linux Resources"
-permalink: /linux/resources
+permalink: /linux/resources.md
 
 # Linux Resources
 A collection of repositories and tools I find as I flail about the internet. 
