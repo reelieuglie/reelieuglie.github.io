@@ -1,4 +1,9 @@
-# Linux 
+layout: page
+title: "Linux Resources"
+permalink: /linux/resources
+
+# Linux Resources
+A collection of repositories and tools I find as I flail about the internet. 
 
 ## RedHat 
 * [RedHat Troubleshooting Guide by myllynen](https://github.com/myllynen/rhel-troubleshooting-guide)
