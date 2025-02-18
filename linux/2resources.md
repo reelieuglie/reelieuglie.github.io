@@ -1,12 +1,3 @@
----
-layout: page
-title: "Linux Resources"
-filename: 2resources.md
-permalink: /linux/2resources.md
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
----
 # Linux Resources
 A collection of repositories and tools I find as I flail about the internet. 
 
