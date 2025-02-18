@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Linux Resources"
-file: 2resources.md
+filename: 2resources.md
 permalink: /linux/2resources.md
 kramdown:
   math_engine: mathjax
