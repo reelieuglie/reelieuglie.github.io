@@ -2,17 +2,9 @@
 
 ## Links:
 ### Linux 
-#### RedHat 
-* https://github.com/myllynen/rhel-troubleshooting-guide
-
-#### Linux Performance
-*  https://github.com/myllynen/rhel-performance-guide
-
-##### Linux Networking Performance
-* https://github.com/leandromoreira/linux-network-performance-parameters
-
+[Linux Resources](https://reelieuglie.github.io/linux/2resources.html)
 ### EKS: 
-* https://docs.aws.amazon.com/eks/latest/userguide/coredns-autoscaling.html
+* [CoreDNS Autoscaling](https://docs.aws.amazon.com/eks/latest/userguide/coredns-autoscaling.html)
 
 ### Windows: 
-* https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals
+* [Windows Internals](https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals)
