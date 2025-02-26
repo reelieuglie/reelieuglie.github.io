@@ -1,10 +1,13 @@
 ---
-layout: page
-title: "Cloud Init"
-permalink: /cloud/cloud-init.md
+title: Cloud Init Notes
+layout: template
+filename: cloud-init.md
+remote_theme: pages-themes/hacker@v0.2.0
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 ---
 # Cloud Init 
 The wonderous mysteries of cloud init. 
