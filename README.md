@@ -2,7 +2,7 @@
 
 ## Links:
 ### Linux 
-[Linux Resources](https://reelieuglie.github.io/linux/2resources.html)
+* [Linux Resources](https://reelieuglie.github.io/linux/2resources.html)
 ### EKS: 
 * [CoreDNS Autoscaling](https://docs.aws.amazon.com/eks/latest/userguide/coredns-autoscaling.html)
 
