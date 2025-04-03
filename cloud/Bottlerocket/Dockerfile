@@ -1,5 +1,5 @@
 # Container Image
-FROM amazonlinux:latest
+FROM fedora:latest
 
 # Install XMLLINT,wget and gunzip
 RUN dnf install -y libxml2 gzip wget
@@ -11,4 +11,7 @@ RUN wget https://advisories.bottlerocket.aws/updateinfo.xml.gz
 RUN gunzip updateinfo.xml.gz
 
 # Prettify
-CMD xmllint --format ./updateinfo.xml
+#CMD xmllint --format ./updateinfo.xml 
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
