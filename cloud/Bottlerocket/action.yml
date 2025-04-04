@@ -1,9 +1,0 @@
-# action.yml
-name: 'BottleRocket UpdateInfo'
-description: 'Copy the updateinfo.xml file and post it in the repo'
-outputs:
-    description: 'The time we greeted you'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
- 
