@@ -38,6 +38,8 @@ jobs:
         run: |
           cd ${{ github.workspace }}
           git add . 
-          git commit -m "updating update info"
+          git config --global user.name 'Ugly'
+          git config --global user.email 'uglie@users.noreply.github.com'
+          git commit -am "Automated report"
           git push
       - run: echo "🍏 This job's status is ${{ job.status }}."
