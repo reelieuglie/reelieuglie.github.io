@@ -18,7 +18,9 @@ jobs:
          gunzip updateinfo.xml.gz
       - name: xmillint the file 
         run: |
-          /usr/bin/xmllint --format ./updateinfo.xml | tee ./updateinfo.txt
+          /usr/bin/xmllint --format ./updateinfo.xml > ./updateinfo.txt
+          ls ./
+          pwd
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
@@ -28,6 +30,7 @@ jobs:
           ls ${{ github.workspace }}
       - name: Copy file to repository
         run: | 
+          ls ./
           cp ./updateinfo.txt ${{ github.workspace }}/updateinfo.xml
       - name: Push Repo
         run: |
