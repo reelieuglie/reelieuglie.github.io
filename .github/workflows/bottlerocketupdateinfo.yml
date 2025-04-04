@@ -12,6 +12,13 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libxml2-utils wget gzip git
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
       - name: Get updateinfo.xml file
         run: |
          wget https://advisories.bottlerocket.aws/updateinfo.xml.gz
@@ -21,17 +28,12 @@ jobs:
           /usr/bin/xmllint --format ./updateinfo.xml > ./updateinfo.txt
           ls ./
           pwd
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
       - name: Copy file to repository
         run: | 
           ls ./
+          rm ./updateinfo.xml
           cp ./updateinfo.txt ${{ github.workspace }}/updateinfo.xml
+          rm ./updateinfo.txt
       - name: Push Repo
         run: |
           cd ${{ github.workspace }}
