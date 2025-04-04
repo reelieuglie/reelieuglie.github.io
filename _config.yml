@@ -27,3 +27,4 @@ include:
   - PULL_REQUEST_TEMPLATE.md
   - /linux
   - /cloud
+  - updateinfo.xml
