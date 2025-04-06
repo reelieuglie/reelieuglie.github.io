@@ -27,10 +27,10 @@ jobs:
           set +o pipefail
           set +e 
           cd ${{ github.workspace }}
-          diff -q ./updateinfo.xml < $(gunzip ./updateinfo.xml.gz)
+          diff -q ./updateinfo.xml < $(gunzip -c ./updateinfo.xml.gz)
           if [[ $? -eq 1 ]]; then
             gunzip -f ./updateinfo.xml.gz
-            xmmlint --html updateinfo.xml --output updateinfo.html
+            xmllint --html updateinfo.xml --output updateinfo.html
             git add . 
             git config --global user.name 'Ugly'
             git config --global user.email 'uglie@users.noreply.github.com'
