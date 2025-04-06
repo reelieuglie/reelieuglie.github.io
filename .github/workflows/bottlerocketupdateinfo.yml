@@ -30,6 +30,8 @@ jobs:
           pwd
       - name: Push Repo
         run: |
+          set +o pipefail
+          set +e 
           cd ${{ github.workspace }}
           diff -q ./updateinfo.txt ./updateinfo.xml
           if [[ $? -eq 1 ]]; then  
