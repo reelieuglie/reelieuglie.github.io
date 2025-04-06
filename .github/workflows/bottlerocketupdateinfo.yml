@@ -28,18 +28,23 @@ jobs:
           /usr/bin/xmllint --format ./updateinfo.xml > ./updateinfo.txt
           ls ./
           pwd
-      - name: Copy file to repository
-        run: | 
-          ls ./
-          rm ./updateinfo.xml
-          cp ./updateinfo.txt ${{ github.workspace }}/updateinfo.xml
-          rm ./updateinfo.txt
       - name: Push Repo
         run: |
           cd ${{ github.workspace }}
-          git add . 
-          git config --global user.name 'Ugly'
-          git config --global user.email 'uglie@users.noreply.github.com'
-          git commit -am "Automated report"
-          git push
+          diff -q ./updateinfo.txt ./updateinfo.xml
+          if [[ $? -eq 1 ]]; then  
+            cp ./updateinfo.txt ./updateinfo.xml
+            rm ./updateinfo.txt
+            git add . 
+            git config --global user.name 'Ugly'
+            git config --global user.email 'uglie@users.noreply.github.com'
+            git commit -am "Automated report"
+            git push
+          elif [[ $? -eq 0 ]]; then
+            echo "No updates"
+            exit 0
+          else 
+            echo "Exit with error code: $?"
+            exit $?
+          fi
       - run: echo "🍏 This job's status is ${{ job.status }}."
