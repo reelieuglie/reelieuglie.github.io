@@ -22,7 +22,7 @@ jobs:
       - name: Get updateinfo.xml file
         run: |
          wget https://advisories.bottlerocket.aws/updateinfo.xml.gz
-         gunzip updateinfo.xml.gz
+         gunzip -f updateinfo.xml.gz
       - name: xmillint the file 
         run: |
           /usr/bin/xmllint --format ./updateinfo.xml > ./updateinfo.txt
