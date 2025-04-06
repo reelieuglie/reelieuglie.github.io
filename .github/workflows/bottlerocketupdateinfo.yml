@@ -22,21 +22,15 @@ jobs:
       - name: Get updateinfo.xml file
         run: |
          wget https://advisories.bottlerocket.aws/updateinfo.xml.gz
-         gunzip -f updateinfo.xml.gz
-      - name: xmillint the file 
-        run: |
-          /usr/bin/xmllint --format ./updateinfo.xml > ./updateinfo.txt
-          ls ./
-          pwd
       - name: Push Repo
         run: |
           set +o pipefail
           set +e 
           cd ${{ github.workspace }}
-          diff -q ./updateinfo.txt ./updateinfo.xml
-          if [[ $? -eq 1 ]]; then  
-            cp ./updateinfo.txt ./updateinfo.xml
-            rm ./updateinfo.txt
+          diff -q ./updateinfo.xml < $(gunzip ./updateinfo.xml.gz)
+          if [[ $? -eq 1 ]]; then
+            gunzip -f ./updateinfo.xml.gz
+            xmmlint --html updateinfo.xml --output updateinfo.html
             git add . 
             git config --global user.name 'Ugly'
             git config --global user.email 'uglie@users.noreply.github.com'
