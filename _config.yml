@@ -25,9 +25,8 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  - /linux/2resources.md
+  - /homelab/*
+  - /linux/*
   - /cloud/*
   - /devops/*
-  - /Linux.md
   - updateinfo.xml
-  - updateinfo.html
