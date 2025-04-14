@@ -25,8 +25,8 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-  - /linux
-  - /cloud
-  - /devops
+  - /linux/*
+  - /cloud/*
+  - /devops/*
   - updateinfo.xml
   - updateinfo.html
