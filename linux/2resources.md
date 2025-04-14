@@ -1,6 +1,5 @@
 ---
 title: Linux Resources
-layout: template
 filename: 2resources.md
 remote_theme: pages-themes/hacker@v0.2.0
 kramdown:
