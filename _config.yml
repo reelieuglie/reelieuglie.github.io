@@ -28,5 +28,6 @@ include:
   - /linux/2resources.md
   - /cloud/*
   - /devops/*
+  - /Linux.md
   - updateinfo.xml
   - updateinfo.html
