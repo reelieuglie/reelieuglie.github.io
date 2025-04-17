@@ -11,10 +11,13 @@ plugins:
 ---
 
 # HomeLab Notes
-## Operating Systems
+## References
+### Home Assistant
+* [Home Assistant](https://github.com/home-assistant/)
+### Operating Systems
 * [HA OS](https://developers.home-assistant.io/docs/operating-system/)
   * [HA OS Addons](https://github.com/hassio-addons/repository)
-## Static Site Options
+### Static Site Options
 * [Hugo](https://gohugo.io/)
 * [Mkdocs](https://www.mkdocs.org/)
 * **Gitea** Options
