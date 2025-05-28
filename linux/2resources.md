@@ -37,8 +37,15 @@ A collection of repositories and tools I find as I flail about the internet.
 ### NTFS
 * [NTFS-3G](https://github.com/tuxera/ntfs-3g/wiki/File-Ownership-and-Permissions)
 
-## Generative AI Related
+## Distros and Images
 
-### Distros and Images
-
+### llmbasedos
 * [llmbasedos](https://github.com/iluxu/llmbasedos)
+  * *Primarily deployed via Docker, llmbasedos can also be built as a minimal Arch Linux based ISO for dedicated appliances.*
+
+### Buildroot
+* [Buildroot Documentation](https://buildroot.org/)
+
+### NixOS
+* [Building NixOS On EC2](http://jackkelly.name/blog/archives/2020/08/30/building_and_importing_nixos_amis_on_ec2/)
+* [NixOS Generators](https://github.com/nix-community/nixos-generators)
