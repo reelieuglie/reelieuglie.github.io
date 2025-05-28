@@ -10,14 +10,18 @@
 ### Cloud 
 #### Cloud Init
 * [Cloud Init Notes](https://reelieuglie.github.io/cloud/cloud-init)
-#### Packer
+  
+#### Packer  
 * [Packer Notes](https://reelieuglie.github.io/cloud/packer)
-#### EKS: 
+  
+#### EKS  
 * [CoreDNS Autoscaling](https://docs.aws.amazon.com/eks/latest/userguide/coredns-autoscaling.html)
 
-### DevOps Practices
-#### Github Actions
+### DevOps Practices  
+
+#### Github Actions  
+
 * [My Github Action Notes and Resources](https://reelieuglie.github.io/devops/github-actions)
 
-### HomeLab
+### HomeLab  
 * [My HomeLab Notes and Resources](https://reelieuglie.github.io/homelab/homelab)
