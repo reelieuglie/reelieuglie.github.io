@@ -4,6 +4,10 @@
 ### Linux 
 * [Linux Resources](https://reelieuglie.github.io/linux/2resources)
 
+### Bash
+* [Scripting Notes](https://reelieuglie.github.io/linux/scripting)
+* [Snippets/Examples for Stream Editors](https://reelieuglie.github.io/linux/StreamEditing)
+
 ### Windows: 
 * [Windows Internals](https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals)
 
