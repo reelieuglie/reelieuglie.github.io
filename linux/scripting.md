@@ -13,7 +13,7 @@ plugins:
 
 ## Scripts and Starters
 * [SSL Check]()
-* [Stream Editing Snippets]()
+* [Stream Editing Snippets](https://reelieuglie.github.io/linux/StreamEditing)
 
 
 * Providing command arguments in Bash Scripts
