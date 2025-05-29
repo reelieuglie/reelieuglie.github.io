@@ -1,3 +1,14 @@
+---
+title: Parsing and Stream Editing
+filename: StreamEditing.md
+remote_theme: pages-themes/hacker@v0.2.0
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+# Theme: https://github.com/pages-themes/hacker
+---
 # Stream Editing and Parsing
 * Snippets for awk/sed/cut/tr/etc... to parse and edit files quickly and easily.
 
