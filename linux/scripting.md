@@ -12,7 +12,7 @@ plugins:
 # Scripts/Scripting
 
 ## Scripts and Starters
-* [SSL Check]()
+* [SSL Checker](https://github.com/reelieuglie/reelieuglie.github.io/blob/main/linux/SSL_Checker.sh)
 * [Stream Editing Snippets](https://reelieuglie.github.io/linux/StreamEditing)
 
 
