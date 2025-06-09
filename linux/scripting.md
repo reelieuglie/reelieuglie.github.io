@@ -17,6 +17,7 @@ plugins:
 
 
 * Providing command arguments in Bash Scripts
+  
 ```
 ####
 # Functions
@@ -62,7 +63,8 @@ done
 ```
 
 ## Notes
-### Login Shells and Dotfiles
+### Login Shells and Dotfiles  
+
 ```
 FILES
        /bin/bash
