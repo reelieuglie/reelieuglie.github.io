@@ -49,3 +49,23 @@ A collection of repositories and tools I find as I flail about the internet.
 ### NixOS
 * [Building NixOS On EC2](http://jackkelly.name/blog/archives/2020/08/30/building_and_importing_nixos_amis_on_ec2/)
 * [NixOS Generators](https://github.com/nix-community/nixos-generators)
+
+### bootc
+* [bootc github repo](https://github.com/bootc-dev/bootc)  
+* [bootc documentation](https://bootc-dev.github.io/bootc/)  
+#### Blogposts
+* [bootc: Getting started with bootable containers ](https://developers.redhat.com/articles/2024/09/24/bootc-getting-started-bootable-containers)   
+#### Fedora Bootc
+* [Getting Started with Bootable Containers](https://docs.fedoraproject.org/en-US/bootc/getting-started/)
+#### bootc image builder
+* [bootc-image-builder repo](https://github.com/osbuild/bootc-image-builder)  
+
+### coldsnap
+* [coldsnap repo](https://github.com/awslabs/coldsnap)
+### mkosi
+* [mkosi](https://0pointer.net/blog/a-re-introduction-to-mkosi-a-tool-for-generating-os-images.html)
+### kiwi
+* [kiwi](https://osinside.github.io/kiwi/index.html)
+### rpm-ostree
+* [rpm-ostree](https://coreos.github.io/rpm-ostree/container/)
+
