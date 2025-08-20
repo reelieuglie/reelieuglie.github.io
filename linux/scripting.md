@@ -84,3 +84,4 @@ FILES
 ```
 
 ## References
+* [Bash Scripting Conditionals](https://devhints.io/bash#conditionals)
