@@ -69,3 +69,8 @@ A collection of repositories and tools I find as I flail about the internet.
 ### rpm-ostree
 * [rpm-ostree](https://coreos.github.io/rpm-ostree/container/)
 
+## Aesthetics
+
+### Terminal
+* [Prompt Customizations](https://wiki.archlinux.org/title/Bash/Prompt_customization)
+* * [Prompt Generator](https://bash-prompt-generator.org/)
