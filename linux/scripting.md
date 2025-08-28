@@ -85,3 +85,4 @@ FILES
 
 ## References
 * [Bash Scripting Conditionals](https://devhints.io/bash#conditionals)
+* [Arch Linux Wiki - Bash](https://wiki.archlinux.org/title/Bash)
