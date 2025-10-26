@@ -28,6 +28,7 @@ A collection of repositories and tools I find as I flail about the internet.
 ## Boot Process
 ### Inspecting a Kernel EFI Binary
 * [ How to inspect kernel.efi (UKI - universal kernel image) binary? ](https://discourse.ubuntu.com/t/how-to-inspect-kernel-efi-uki-universal-kernel-image-binary/38266)
+* [Boot Process](https://www.0xkato.xyz/linux-boot/)
 
 ## Filesystems 
 
