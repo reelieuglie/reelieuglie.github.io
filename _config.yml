@@ -29,4 +29,6 @@ include:
   - /linux/*
   - /cloud/*
   - /devops/*
+  - /health 
+  - /generative_AI.md
   - updateinfo.xml
