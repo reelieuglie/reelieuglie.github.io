@@ -1,6 +1,10 @@
 # reelieuglie.github.io
 
 ## Links:
+
+### Generative AI
+ * [General Notes](https://reelieuglie.github.io/generativeAI)
+
 ### Linux 
 * [Linux Resources](https://reelieuglie.github.io/linux/2resources)
 
@@ -29,3 +33,7 @@
 
 ### HomeLab  
 * [My HomeLab Notes and Resources](https://reelieuglie.github.io/homelab/homelab)
+
+### Non-Tech
+* [Health and Fitness](https://reelieuglie.github.io/health)
+ 
